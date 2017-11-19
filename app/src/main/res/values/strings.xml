@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="ANDROID_QUIZ_INFO">Hello, This is an Android Quiz contains some random questions</string>
+    <string name="ANSWER">answer</string>
+</resources>
