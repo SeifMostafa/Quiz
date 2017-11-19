@@ -2,13 +2,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:scrollbars="vertical">
+    android:scrollbars="vertical"
+    android:layout_marginBottom="@dimen/bigpadding">
 
     <TextView
         android:id="@+id/textview_question_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/smallpadding"
+        android:layout_marginBottom="@dimen/bigpadding"
         android:textStyle="bold" />
 
     <EditText
@@ -17,13 +18,9 @@
         android:layout_height="wrap_content"
         android:hint="@string/ANSWER"
         android:inputType="textMultiLine"
-        android:scrollbars="vertical" />
+        android:scrollbars="vertical"
+        />
 
-    <ListView
-        android:id="@+id/listview_answers"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:scrollbars="vertical"></ListView>
+
 
 </LinearLayout>
